@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/expressao"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:hint="C°"
+        android:gravity="end"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="end"
+        android:textColor="@color/black"
+        android:hint="F°"
+        android:textSize="30dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/botao"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="CONVERTER"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
